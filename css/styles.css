@@ -10,6 +10,7 @@
 @import "components/user-components.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-head.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/index.css";
