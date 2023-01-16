@@ -6,6 +6,7 @@
   width: 100%;
   padding: 25px var(--basic-left-right-padding);
   background-color: white;
+  box-sizing: border-box;
 }
 
 .screen-header__title {
@@ -17,7 +18,7 @@
   margin-left: 25px;
 }
 
-@keyframes rotateCog {
+/* @keyframes rotateCog {
   from {
     transform: none;
   }
@@ -28,4 +29,4 @@
 
 .screen-header__icons .fa-gear:hover {
   animation: rotateCog 1s linear infinite;
-}
+} */
