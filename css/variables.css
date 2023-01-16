@@ -1,4 +1,6 @@
 :root {
   --basic-left-right-padding: 25px;
-  --status-bar-top-padding: 30px;
+  --status-bar-height: 30px;
+  --screen-header-width: 82px;
+  --status-plus-header-width: 112px;
 }

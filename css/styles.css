@@ -18,13 +18,13 @@
 html,
 body {
   height: 100%;
-}
-
-body {
-  padding-top: var(--status-bar-top-padding);
+  /* To Escape Collapsing margin */
+  padding: 1px 0px;
 }
 
 .workspace {
   width: 100%;
+  margin-top: var(--status-plus-header-width);
   padding: 0px var(--basic-left-right-padding);
+  box-sizing: border-box;
 }
