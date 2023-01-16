@@ -27,16 +27,6 @@
   object-fit: cover;
 }
 
-.user-component__avatar--xl {
-  width: 100px;
-  height: 100px;
-}
-
-.user-component__avatar--sm {
-  width: 50px;
-  height: 50px;
-}
-
 .user-component__title {
   font-weight: 600;
   font-size: 20px;
@@ -62,4 +52,36 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-components--xl .user-component__avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.user-components--xl .user-component__title {
+  font-size: 30px;
+}
+
+.user-components--sm .user-component__avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.user-components--sm .user-component__title {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.user-component-category {
+  margin-bottom: 20px;
+}
+
+.user-component-category__line {
+  opacity: 0.5;
+}
+
+.user-component-category__title {
+  font-size: 18px;
+  opacity: 0.8;
 }
