@@ -9,6 +9,7 @@
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-head.css";
 
 /* Screens */
 @import "screens/index.css";
@@ -16,12 +17,14 @@
 @import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/chat.css";
 
 html,
 body {
   height: 100%;
   /* To Escape Collapsing margin */
   padding: 1px 0px;
+  color: #2e363e;
 }
 
 .workspace {
