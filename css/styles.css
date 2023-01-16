@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+/* @import "components/*.css" */
+
+/* Screens */
+/* @import "screen/*.css" */
+
+html,
+body {
+  height: 100%;
+}
