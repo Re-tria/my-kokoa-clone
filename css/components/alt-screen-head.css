@@ -1,9 +1,12 @@
 .alt-header {
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: var(--basic-left-right-padding);
-  margin-top: 25px;
+  margin-top: var(--status-bar-height);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .alt-header__column {
